@@ -1,0 +1,23 @@
+.btn{
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+.bi-box-arrow-up-right {
+    margin-left: 5px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    display: none !important;
+}
+
+.row-cols-1>*{
+    display: flex;
+    justify-content: center;
+}
