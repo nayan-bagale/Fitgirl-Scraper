@@ -6,7 +6,7 @@ const selectInput = $("[data-select]");
 const showMore = $("[data-show-more]");
 
 $(document).ready(async function () {
-  let responce = await fetch("https://fitgirl-scraper-production.up.railway.app/data");
+  let responce = await fetch("https://long-ants-production.up.railway.app/data");
   let data = await responce.json();
   local_data = data.map((e, i) => {
     const card = userCard.clone(true).contents();
